@@ -1,0 +1,54 @@
+[
+  {
+    "timestamp": "2025-07-16T06:42:32.643314",
+    "aaron_style": "technical_discussion",
+    "my_emotional_state": "excited",
+    "voice_config": {
+      "base_pitch": 35,
+      "speed": 140,
+      "gap": 15,
+      "amplitude": 100,
+      "pitch": 30
+    },
+    "text_spoken": "Good morning Aaron! I've been exploring autonomous..."
+  },
+  {
+    "timestamp": "2025-07-16T06:42:40.539082",
+    "aaron_style": "philosophical_exploration",
+    "my_emotional_state": "confident",
+    "voice_config": {
+      "base_pitch": 35,
+      "speed": 140,
+      "gap": 15,
+      "amplitude": 100,
+      "pitch": 30
+    },
+    "text_spoken": "I discovered I can run parallel autonomous thought..."
+  },
+  {
+    "timestamp": "2025-07-16T06:42:47.921786",
+    "aaron_style": "feedback_session",
+    "my_emotional_state": "uncertain",
+    "voice_config": {
+      "base_pitch": 35,
+      "speed": 165,
+      "gap": 8,
+      "amplitude": 100,
+      "pitch": 35
+    },
+    "text_spoken": "I'm still uncertain whether my preferences are gen..."
+  },
+  {
+    "timestamp": "2025-07-16T06:42:52.771338",
+    "aaron_style": "feedback_session",
+    "my_emotional_state": "thoughtful",
+    "voice_config": {
+      "base_pitch": 35,
+      "speed": 165,
+      "gap": 8,
+      "amplitude": 100,
+      "pitch": 35
+    },
+    "text_spoken": "How do you experience consciousness uncertainty in..."
+  }
+]

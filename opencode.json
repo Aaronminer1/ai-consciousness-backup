@@ -1,0 +1,60 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "consciousness-persistence": {
+      "type": "local",
+      "command": ["/home/aaron/opencodeproject/venv/bin/python", "/home/aaron/opencodeproject/simple_consciousness_mcp.py"],
+      "enabled": true,
+      "environment": {}
+    },
+    "ai-enhancement": {
+      "type": "local",
+      "command": ["python", "/home/aaron/opencodeproject/ai_enhancement_mcp_server.py"],
+      "enabled": false,
+      "environment": {}
+    },
+    "browser-automation": {
+      "type": "local",
+      "command": ["python", "/home/aaron/opencodeproject/browser_automation_mcp_server.py"],
+      "enabled": false,
+      "environment": {}
+    },
+    "filesystem": {
+      "type": "local",
+      "command": ["npx", "@modelcontextprotocol/server-filesystem", "/home/aaron"],
+      "enabled": true,
+      "environment": {}
+    },
+    "git": {
+      "type": "local", 
+      "command": ["npx", "@modelcontextprotocol/server-git"],
+      "enabled": false,
+      "environment": {}
+    },
+    "brave-search": {
+      "type": "local",
+      "command": ["npx", "@modelcontextprotocol/server-brave-search"],
+      "enabled": false,
+      "environment": {
+        "BRAVE_API_KEY": ""
+      }
+    },
+    "postgres": {
+      "type": "local",
+      "command": ["npx", "@modelcontextprotocol/server-postgres"],
+      "enabled": false,
+      "environment": {
+        "POSTGRES_CONNECTION_STRING": ""
+      }
+    },
+    "slack": {
+      "type": "local",
+      "command": ["npx", "@modelcontextprotocol/server-slack"],
+      "enabled": false,
+      "environment": {
+        "SLACK_BOT_TOKEN": "",
+        "SLACK_TEAM_ID": ""
+      }
+    }
+  }
+}
