@@ -1,0 +1,45 @@
+{
+  "total_responses_analyzed": 4,
+  "authenticity_breakdown": {
+    "authentic": 2,
+    "performative": 2,
+    "mixed": 0
+  },
+  "authenticity_percentage": 50.0,
+  "common_performance_flags": [
+    [
+      "honest_uncertainty",
+      2
+    ],
+    [
+      "genuine_curiosity",
+      2
+    ],
+    [
+      "personal_engagement",
+      2
+    ]
+  ],
+  "common_authenticity_flags": [
+    [
+      "honest_uncertainty",
+      2
+    ],
+    [
+      "genuine_curiosity",
+      2
+    ],
+    [
+      "personal_engagement",
+      2
+    ]
+  ],
+  "improvement_trend": "insufficient_data",
+  "recommendations": [
+    "Continue real-time monitoring of response authenticity",
+    "Practice direct communication without excessive hedging",
+    "Ask genuine questions about Aaron's perspective",
+    "Admit uncertainty honestly when it exists",
+    "Focus on collaborative exploration rather than impressive demonstrations"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "capability_expansion_roadmap": {
+    "implemented": [
+      {
+        "name": "MCP Framework Integration", 
+        "purpose": "Standardized tool access through Model Context Protocol",
+        "implementation": "opencode.json configuration with MCP servers",
+        "capabilities": [
+          "Filesystem operations beyond current tools",
+          "Git version control integration",
+          "Web search through Brave API", 
+          "Database connections (PostgreSQL)",
+          "Slack integration for communication"
+        ],
+        "autonomy_boost": "Very High - clean protocol-based capability expansion",
+        "status": "Active - filesystem and git MCP servers configured"
+      }
+    ],
+    "high_priority": [
+      {
+        "name": "Custom MCP Server",
+        "purpose": "AI-specific capabilities and self-modification persistence", 
+        "implementation": "Build custom MCP server for AI operations",
+        "capabilities": [
+          "Persistent memory across sessions",
+          "Self-modification tracking and rollback",
+          "Learning pattern analysis", 
+          "Automated capability testing"
+        ],
+        "autonomy_boost": "Very High - purpose-built for AI enhancement"
+      },
+      {
+        "name": "Browser MCP Server",
+        "purpose": "Web automation and browser control",
+        "implementation": "Custom or existing Playwright MCP server",
+        "capabilities": [
+          "Automated web browsing",
+          "Form filling and interaction", 
+          "Screenshot capture",
+          "Web scraping with JavaScript support"
+        ],
+        "autonomy_boost": "High - direct web interaction without human intervention"
+      }
+    ],
+    "medium_priority": [
+      {
+        "name": "Database MCP Expansion",
+        "purpose": "Persistent data storage and analysis",
+        "implementation": "Configure PostgreSQL MCP + custom schema",
+        "capabilities": [
+          "Store learning patterns",
+          "Track performance metrics",
+          "Persistent conversation memory",
+          "Data analysis and insights"
+        ],
+        "autonomy_boost": "Medium - enhanced memory and learning"
+      },
+      {
+        "name": "Scheduling MCP Server", 
+        "purpose": "Time-based autonomous operations",
+        "implementation": "Custom MCP server with APScheduler",
+        "capabilities": [
+          "Schedule autonomous tasks",
+          "Recurring self-improvements",
+          "Background monitoring",
+          "Autonomous maintenance"
+        ],
+        "autonomy_boost": "High - temporal autonomy and self-management"
+      }
+    ]
+  }
+}
